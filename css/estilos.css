@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main{
+    display: flex;
+}
+#cabecera{
+    background: linear-gradient(90deg, rgba(247,169,0,1) 0%, rgba(0,212,255,1) 55%,rgba(0, 2, 6, 0.603) 100%);
+    text-align: center;
+    padding: 10px;
+}
+nav{
+    border: 2px solid rgb(255,165,0);
+    background-color: rgba(255, 192, 0, 0.3);
+    padding: 5px;
+    margin: 20px 0 0 20px;
+    height: 200px;
+}
+h2{
+    margin: 25px;
+}
+h4{
+    margin-bottom: 25px;
+}
+section{
+    margin: 25px;
+    display: flex;
+}
+#partes{
+    background-color: rgba(236, 254, 238);
+    border: 1px solid rgb(92, 187, 104);
+    padding: 10px;
+    margin-left: 20px;
+    flex-basis: 50%;
+}
+#partes2{
+    background-color: rgba(236, 254, 238);
+    border: 1px solid rgb(92, 187, 104);
+    margin-left: 20px;
+    padding: 10px;
+    margin-top: 10px;
+
+}
+#cinco{
+    flex-direction: column;
+}
+#cinco>#partes{
+    background-color: inherit;
+}
+#cuatro>#partes{
+    flex-basis: 100%;
+}
+a{
+    text-decoration: none;
+    color: rgba(0,2,6,1);
+}
+a:visited{
+    text-decoration: none;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color:steelblue;
+}
+a:hover:link{
+    text-decoration: underline;
+}
+ul li{
+    list-style: none;
+    padding-left: 0;
+    margin: 15px;
+}
+form input{
+    margin-left: -2px;
+}
+input{
+    font-size: 14px;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: 45px;
+    text-decoration: none;
+    padding: 4px;
+    display: inline-block;
+}
+input:hover{
+    color:steelblue;
+    background-color: tan;
+}
+button{
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+#pie{
+    background: linear-gradient(90deg, rgba(247,169,0,1) 0%, rgba(0,212,255,1) 55%, rgba(0, 2, 6, 0.603) 100%);
+    text-align: center;
+    padding: 10px;
+    justify-content: space-between;
+    display: flex;
+}
+img{
+    width: 150px;
+    height: 100px;
+}
